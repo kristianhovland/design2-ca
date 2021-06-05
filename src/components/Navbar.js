@@ -31,7 +31,7 @@ function Navbar() {
                 <div className="navbar-container">
                 
                     <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-                        <img src = {require('./images/logo.png').default} className="navbar-logo-img" />
+                        <img src = {require('./images/logo.png').default} className="navbar-logo-img" alt="logo" />
                     </Link>
 
                     <div className="menu-icon" onClick={handleClick}>
